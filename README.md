@@ -14,7 +14,7 @@
 
 
 ## 📌 Project Overview
-**JALT** is a web application developed as part of the ##Web Engineering Lab . Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
+**JALT** is a web application developed as part of the ## Web Engineering Lab . Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
 
 ## 🛠️ Tech Stack
 *   **Framework:** Laravel 13
