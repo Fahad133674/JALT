@@ -7,9 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-It looks like you’ve pasted the default **Laravel README.md** content. If you want to format this specifically for your **JALT** project (which I see is for your Web Engineering Lab), you should customize it to reflect your actual work while keeping it professional.
-
-Here is a formatted version tailored for your repository:
 
 ---
 
@@ -17,7 +14,7 @@ Here is a formatted version tailored for your repository:
 
 
 ## 📌 Project Overview
-**JALT** is a web application developed as part of the **Web Engineering Lab **. Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
+**JALT** is a web application developed as part of the ##Web Engineering Lab . Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
 
 ## 🛠️ Tech Stack
 *   **Framework:** Laravel 13
