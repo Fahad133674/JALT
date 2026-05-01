@@ -15,15 +15,12 @@ Here is a formatted version tailored for your repository:
 
 # JALT - Web Engineering Project
 
-<p align="center">
-  <img src="[https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)" width="300" alt="Laravel Logo">
-</p>
 
 ## 📌 Project Overview
 **JALT** is a web application developed as part of the **Web Engineering Lab (L4T3)**. Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
 
 ## 🛠️ Tech Stack
-*   **Framework:** Laravel 11+
+*   **Framework:** Laravel 13
 *   **Language:** PHP
 *   **Frontend:** Blade Templating / Vite
 *   **Database:** MySQL (Supported via Eloquent ORM)
@@ -42,13 +39,14 @@ cd JALT
 ### 2. Install dependencies
 ```bash
 composer install
-npm install && npm run dev
+
 ```
 
 ### 3. Environment Configuration
 Copy the example environment file and generate an application key:
+
 ```bash
-cp .env.example .env
+
 php artisan key:generate
 ```
 
