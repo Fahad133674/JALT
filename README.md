@@ -17,7 +17,7 @@ Here is a formatted version tailored for your repository:
 
 
 ## 📌 Project Overview
-**JALT** is a web application developed as part of the **Web Engineering Lab (L4T3)**. Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
+**JALT** is a web application developed as part of the **Web Engineering Lab **. Built on the **Laravel** framework, this project focuses on implementing robust backend logic, expressive syntax, and modern web development practices.
 
 ## 🛠️ Tech Stack
 *   **Framework:** Laravel 13
@@ -37,12 +37,14 @@ cd JALT
 ```
 
 ### 2. Install dependencies
+Setup PHP then install composer
 ```bash
 composer install
 
 ```
 
 ### 3. Environment Configuration
+import the given jalt.sql in you database then do the next
 Copy the example environment file and generate an application key:
 
 ```bash
