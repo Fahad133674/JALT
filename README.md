@@ -10,7 +10,7 @@
 
 ---
 
-# JALT - Web Engineering Project
+# Web Engineering Lab Project: JALT - Try Before You Pay 
 
 
 ## 📌 Project Overview
