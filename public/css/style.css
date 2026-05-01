@@ -1,0 +1,154 @@
+/* --- Root Variables (Jalt Color Palette) --- */
+:root {
+    --jalt-orange: #ee7300; 
+    --jalt-dark: #333333;
+    --jalt-bg: #fdfdfd;
+    --white: #ffffff;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --border-radius: 12px;
+}
+
+/* --- Global Styles --- */
+body {
+    background-color: var(--jalt-bg);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--jalt-dark);
+}
+
+/* --- Navbar (Custom) --- */
+.jalt-navbar {
+    background-color: var(--jalt-orange);
+    padding: 12px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: var(--shadow);
+}
+
+.jalt-navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.jalt-nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* --- Layout Container --- */
+.jalt-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+.product-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    color: #007bff; 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* --- Forms & Inputs --- */
+.jalt-form-group {
+    margin-bottom: 20px;
+}
+
+.jalt-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.jalt-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.jalt-input:focus {
+    border-color: var(--jalt-orange);
+    outline: none;
+}
+
+
+.btn-jalt {
+    background-color: var(--jalt-orange);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-jalt_add_products {
+    background-color: var(--jalt-orange);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 20%;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-jalt:hover {
+    background-color: #cc6200;
+}
+
+
+.trial-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+}
